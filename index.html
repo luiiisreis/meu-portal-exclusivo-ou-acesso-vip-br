@@ -3,145 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Segredo Revelado</title>
+    <title>Portal VIP - Curadoria de Entretenimento Digital</title>
     <style>
+        :root {
+            --gold: #d4af37;
+            --dark-bg: #0f1215;
+            --card-bg: #1a1e23;
+            --text-gray: #a0a0a0;
+        }
+
         body {
-            background-color: #050505;
-            color: #e0e0e0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark-bg);
+            color: white;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        h1 {
-            color: #d4af37;
-            font-size: 2.2em;
-            text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
-            margin-bottom: 20px;
-        }
-        p.intro {
-            font-size: 1.1em;
-            line-height: 1.6;
-            color: #bbb;
-            margin-bottom: 40px;
-        }
-        .card {
-            background: #111;
-            border: 1px solid #333;
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 30px;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: #d4af37;
-        }
-        h2 {
-            font-size: 1.4em;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-        .description {
-            font-size: 0.9em;
-            color: #888;
-            margin-bottom: 20px;
-        }
-        .btn {
-            display: inline-block;
-            background: linear-gradient(45deg, #d4af37, #f2d472);
-            color: #000 !important;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 50px;
-            font-size: 1.1em;
-            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
-            transition: 0.3s;
-            margin-bottom: 15px;
-        }
-        .insta-link {
-            display: block;
-            color: #d4af37;
-            text-decoration: none;
-            font-size: 0.85em;
-            font-weight: bold;
-        }
-        .insta-link:hover {
-            text-decoration: underline;
-        }
-        .trust-section {
-            margin-top: 50px;
-            padding: 20px;
-            border-top: 1px solid #222;
-            text-align: left;
-        }
-        .trust-item {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            margin-bottom: 15px;
-            font-size: 0.9em;
-            color: #999;
         }
-        .trust-item span {
-            color: #00ff88;
-            margin-right: 10px;
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 600px;
+        }
+
+        h1 { color: var(--gold); font-size: 1.8rem; margin-bottom: 10px; }
+        p.subtitle { color: var(--text-gray); font-size: 0.9rem; line-height: 1.5; }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            padding-bottom: 50px;
+        }
+
+        .experience-card {
+            background: var(--card-bg);
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+
+        .experience-card:hover { border-color: var(--gold); }
+
+        .badge {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--gold);
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-size: 0.7rem;
             font-weight: bold;
+            text-transform: uppercase;
         }
+
+        h2 { font-size: 1.2rem; margin: 15px 0 10px 0; }
+        
+        .desc { font-size: 0.85rem; color: var(--text-gray); margin-bottom: 20px; }
+
+        .btn-main {
+            display: block;
+            background: var(--gold);
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .btn-insta {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-size: 0.8rem;
+            border: 1px solid #444;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
         footer {
-            margin-top: 50px;
-            font-size: 0.8em;
-            color: #555;
-            padding-bottom: 30px;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.75rem;
+            color: #666;
+            border-top: 1px solid #222;
+            width: 100%;
         }
+
+        .warnings { color: #888; margin-top: 15px; font-weight: bold; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>🌑 O Segredo Foi Revelado.</h1>
-        <p class="intro">
-            Acesso exclusivo para as plataformas mais seguras e bem avaliadas. Confira os perfis oficiais e escolha o seu portal.
-        </p>
+<header>
+    <h1>🌑 O Portal Foi Aberto</h1>
+    <p class="subtitle">Análises detalhadas das plataformas mais estáveis e seguras de 2026. Conteúdo exclusivo para membros da comunidade.</p>
+</header>
 
-        <div class="card">
-            <h2>👉 Experiência 1</h2>
-            <p class="description">Gráficos imersivos e alta estabilidade.</p>
-            <a href="https://27baa18.com/?pid=274984397" target="_blank" class="btn">BAIXAR APLICATIVO 1</a>
-            <a href="https://www.instagram.com/27b_slots?igsh=MWtrZjBwNThvdWRwaQ==" target="_blank" class="insta-link">📸 Siga no Instagram: @27b_slots</a>
-        </div>
+<div class="container">
 
-        <div class="card">
-            <h2>👉 Experiência 2</h2>
-            <p class="description">Interface intuitiva e saques rápidos.</p>
-            <a href="https://8385b.xyz/?pid=210552136" target="_blank" class="btn">BAIXAR APLICATIVO 2</a>
-            <a href="https://www.instagram.com/8385_slots?igsh=bWVpNDNtY2o2Mzds" target="_blank" class="insta-link">📸 Siga no Instagram: @8385_slots</a>
-        </div>
-
-        <div class="card">
-            <h2>👉 Experiência 3</h2>
-            <p class="description">Plataforma premium com recursos exclusivos.</p>
-            <a href="https://vip345111.com/?pid=111997568" target="_blank" class="btn">BAIXAR APLICATIVO 3</a>
-            <a href="https://www.instagram.com/vip_345com" target="_blank" class="insta-link">📸 Siga no Instagram: @vip_345com</a>
-        </div>
-
-        <div class="trust-section">
-            <div class="trust-item"><span>✓</span> Verificados e Seguros</div>
-            <div class="trust-item"><span>✓</span> Perfis Oficiais no Instagram</div>
-            <div class="trust-item"><span>✓</span> Suporte Integrado 24/7</div>
-            <div class="trust-item"><span>✓</span> 100% Estáveis e Confiáveis</div>
-        </div>
-
-        <footer>
-            A oportunidade bate à porta apenas uma vez. <br>
-            &copy; 2026 Portal de Acesso Exclusivo.
-        </footer>
+    <div class="experience-card">
+        <span class="badge">Alta Estabilidade</span>
+        <h2>Análise de Performance: 27B</h2>
+        <p class="desc">Interface otimizada para dispositivos móveis com tempo de resposta imediato e suporte ativo.</p>
+        <a href="https://27baa18.com/?pid=274984397" class="btn-main">ACESSAR PLATAFORMA OFICIAL</a>
+        <a href="https://www.instagram.com/27b_slots" class="btn-insta">Ver Comunidade no Instagram</a>
     </div>
+
+    <div class="experience-card">
+        <span class="badge">Interface Premium</span>
+        <h2>Análise de Performance: 8385</h2>
+        <p class="desc">Sistema intuitivo focado em usabilidade e segurança de dados do usuário.</p>
+        <a href="https://8385b.xyz/?pid=210552136" class="btn-main">ACESSAR PLATAFORMA OFICIAL</a>
+        <a href="https://www.instagram.com/8385_slots" class="btn-insta">Ver Comunidade no Instagram</a>
+    </div>
+
+    <div class="experience-card">
+        <span class="badge">Verificado 2026</span>
+        <h2>Análise de Performance: VIP 345</h2>
+        <p class="desc">Recursos exclusivos de fidelidade e ambiente digital de alta performance.</p>
+        <a href="https://vip345111.com/?pid=111997568" class="btn-main">ACESSAR PLATAFORMA OFICIAL</a>
+        <a href="https://www.instagram.com/vip_345com" class="btn-insta">Ver Comunidade no Instagram</a>
+    </div>
+
+</div>
+
+<footer>
+    <div class="warnings">🔞 PROIBIDO PARA MENORES DE 18 ANOS</div>
+    <p>Este portal é um agregador de análises para fins de entretenimento digital.<br>
+    Jogue com responsabilidade. © 2026 Portal VIP.</p>
+    <p><a href="#" style="color: #666;">Termos de Uso</a> | <a href="#" style="color: #666;">Política de Privacidade</a></p>
+</footer>
 
 </body>
 </html>
