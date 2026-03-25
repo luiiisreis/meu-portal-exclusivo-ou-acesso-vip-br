@@ -1,10 +1,4 @@
-# LANÇAMENTOS DE SEGUNTA-FERIRA!
+# LANÇAMENTOS DE SEGUMDA-FEIRA!
 As melhores plataformas validadas com saques rápidos:
- 
-Jogos: R$ 0,10 WG 
- 
-Jogos: R$ 0,10 WG
-  
-Jogos: R$ 0,10 WG
 
 Lembre-se de jogar com responsabilidade!
